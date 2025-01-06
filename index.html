@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <title>i AM the problem</title>
+</head>
+<style>
+    * {
+        font-family: 'Helvetica';
+        color: #ffffff;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .main {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 20%;
+        margin: 0;
+        font-size: 3rem;
+        background-image: linear-gradient(#20273f, #333b50);
+        height: 100vh;
+    }
+
+    .text {
+        padding: 1rem 0;
+    }
+
+    .itsme-first {
+        opacity: 0;
+        animation: fade-text 100ms linear 1000ms 1 forwards;
+    }
+
+    .hi {
+        opacity: 0;
+        animation: fade-text 100ms linear 2500ms 1 forwards;
+    }
+
+    .iatp {
+        font-size: 4rem;
+    }
+
+    .i {
+        opacity: 0;
+        animation: fade-text 100ms linear 4000ms 1 forwards;
+    }
+
+    .am {
+        opacity: 0;
+        animation: fade-text 100ms linear 4150ms 1 forwards;
+    }
+
+    .the {
+        opacity: 0;
+        animation: fade-text 100ms linear 4300ms 1 forwards;
+    }
+
+    .prob {
+        opacity: 0;
+        animation: fade-text 100ms linear 4450ms 1 forwards;
+    }
+
+    .itsme-second {
+        opacity: 0;
+        animation: fade-text 100ms linear 5200ms 1 forwards;
+    }
+
+    .contactus {
+        position: absolute;
+        bottom: 20%;
+        opacity: 0;
+        animation: fade-text 200ms linear 6500ms 1 forwards;
+    }
+
+    @keyframes fade-text {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="text">
+            <span class="itsme-first">it's me</span>
+            <span class="hi">hi</span>
+        </div>
+        <div class="text iatp">
+            <span class="i">i</span>
+            <span class="am">am</span>
+            <span class="the">the</span>
+            <span class="prob">problem</span>
+        </div>
+        <div class="text itsme-second">
+            <span>it's me</span>
+        </div>
+        <div class="text contactus">
+            <a href="mailto:itsmehi@iamtheproblem.me">Contact us</a>
+        </div>
+    </div>
+</body>
