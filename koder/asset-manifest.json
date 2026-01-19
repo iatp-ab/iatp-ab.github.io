@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/koder/static/css/main.faaada25.css",
-    "main.js": "/koder/static/js/main.7bae93e1.js",
+    "main.css": "/koder/static/css/main.87aa0ef0.css",
+    "main.js": "/koder/static/js/main.dcba5db7.js",
     "index.html": "/koder/index.html",
-    "main.faaada25.css.map": "/koder/static/css/main.faaada25.css.map",
-    "main.7bae93e1.js.map": "/koder/static/js/main.7bae93e1.js.map"
+    "main.87aa0ef0.css.map": "/koder/static/css/main.87aa0ef0.css.map",
+    "main.dcba5db7.js.map": "/koder/static/js/main.dcba5db7.js.map"
   },
   "entrypoints": [
-    "static/css/main.faaada25.css",
-    "static/js/main.7bae93e1.js"
+    "static/css/main.87aa0ef0.css",
+    "static/js/main.dcba5db7.js"
   ]
 }
